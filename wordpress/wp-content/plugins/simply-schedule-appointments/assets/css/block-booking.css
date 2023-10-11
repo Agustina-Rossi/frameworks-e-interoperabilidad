@@ -1,0 +1,50 @@
+.wp-block[data-type="ssa/booking"] .ssa-block-container {
+	position: relative;
+}
+
+.wp-block[data-type="ssa/booking"] .ssa-block-handler {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+}
+
+.ssa-checkboxes-input-container {
+	display: flex;
+}
+
+.ssa-checkboxes-input-container .components-base-control {
+	margin-bottom: calc(8px);
+}
+
+.ssa-checkboxes-input-container [type="button"].ssa-block-booking-uncheck-all {
+	box-shadow: none;
+	padding: 4px 9px;
+	margin: 5px 0 auto auto;
+	height: 100%;
+
+}
+
+.ssa_first_available_control_wrapper {
+	display: flex;
+	gap: 2px;
+}
+
+.ssa_first_available_control_wrapper .ssa_duration_unit {
+	min-width: 125px;
+
+}
+
+.ssa-bookingflow-tab-panel button:hover {
+	background-color: var(--ast-global-color-6, #e2e8f0);
+}
+
+.ssa-bookingflow-tab-panel button[aria-selected="true"]::after {
+	height: 3px;
+}
+
+.ssa-bookingflow-tab-panel div[role="tabpanel"] {
+	padding-top: 10px;
+}
